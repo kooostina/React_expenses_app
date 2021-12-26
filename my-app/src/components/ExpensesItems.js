@@ -1,7 +1,7 @@
 import ExpenseItem from "./ExpenseItem";
 import "./ExpensesItems.css";
 
-function ExpensesItems(props) {
+const ExpensesItems = (props) => {
   const items = props.items || [];
   console.log(items);
   return (
@@ -17,6 +17,6 @@ function ExpensesItems(props) {
       })}
     </div>
   );
-}
+};
 
 export default ExpensesItems;
